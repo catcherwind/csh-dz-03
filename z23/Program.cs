@@ -1,5 +1,7 @@
-﻿Console.WriteLine("Введите число");
+﻿Console.WriteLine("Введите первое число");
 int n = int.Parse(Console.ReadLine());
-for (int i = 1; i <= n; i++){
+Console.WriteLine("Введите второе число");
+int m = int.Parse(Console.ReadLine());
+for (int i = n; i <= m; i++){
     Console.Write($"{Math.Pow(i,3)} ");
 }
